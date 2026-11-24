@@ -1,0 +1,38 @@
+[
+  {
+    "account_id": "AC-02",
+    "status": "Pass",
+    "evidence_ids": [
+      "BASE-02"
+    ],
+    "summary": "E-Campus account AC-02 has a valid, approved review within the last 90 days.",
+    "proposed_next_action": "Monitor for any changes to the review status within the next 7 days."
+  },
+  {
+    "account_id": "AC-03",
+    "status": "Fail",
+    "evidence_ids": [
+      "BASE-03"
+    ],
+    "summary": "E-Campus account AC-03's review is past the allowed age, requiring immediate attention.",
+    "proposed_next_action": "Investigate the reason for the review's age and determine if a manual review is needed."
+  },
+  {
+    "account_id": "AC-04",
+    "status": "Insufficient Evidence",
+    "evidence_ids": [
+      "BASE-04"
+    ],
+    "summary": "E-Campus account AC-04 lacks sufficient evidence to support a review, requiring further investigation.",
+    "proposed_next_action": "Request additional evidence from the user or relevant stakeholders to complete the review."
+  },
+  {
+    "account_id": "AC-11",
+    "status": "Fail",
+    "evidence_ids": [
+      "BASE-11"
+    ],
+    "summary": "E-Campus account AC-11's review is past the allowed age, requiring immediate attention.",
+    "proposed_next_action": "Contact the user to understand the reason for the review's age and determine if a manual review is needed."
+  }
+]

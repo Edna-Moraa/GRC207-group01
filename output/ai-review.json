@@ -1,0 +1,30 @@
+[
+  {
+    "account_id": "AC-02",
+    "review_decision": "Accept",
+    "reason": "The baseline result is Pass and the evidence ID is BASE-02. The draft keeps both. The approved review dated 2025-12-31 is 90 days old on 2026-03-31, so the summary is supported by the source record.",
+    "supported_evidence_ids": ["BASE-02"],
+    "corrected_summary": ""
+  },
+  {
+    "account_id": "AC-03",
+    "review_decision": "Accept",
+    "reason": "The baseline result is Fail and the evidence ID is BASE-03. The draft keeps both. The approved review dated 2025-12-30 is 91 days old on 2026-03-31, which matches the draft summary.",
+    "supported_evidence_ids": ["BASE-03"],
+    "corrected_summary": ""
+  },
+  {
+    "account_id": "AC-04",
+    "review_decision": "Edit",
+    "reason": "The status Insufficient Evidence and evidence ID BASE-04 match the baseline. The summary correctly says the evidence is incomplete. The proposed action asks the user for more evidence, and the source record does not support that. The gap is a missing review date and a missing review status.",
+    "supported_evidence_ids": ["BASE-04"],
+    "corrected_summary": "Account AC-04 is active and privileged, but the review date and review status are missing, so the control result is Insufficient Evidence."
+  },
+  {
+    "account_id": "AC-11",
+    "review_decision": "Accept",
+    "reason": "The baseline result is Fail and the evidence ID is BASE-11. The draft keeps both. The approved review dated 2025-12-20 is 101 days old on 2026-03-31. The draft does not turn the risk exception into a pass.",
+    "supported_evidence_ids": ["BASE-11"],
+    "corrected_summary": ""
+  }
+]

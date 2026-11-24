@@ -1,0 +1,24 @@
+{
+  "control_id": "GRC207-PA-01",
+  "control_statement": "Every active privileged E-Campus account must have a documented, approved access review dated within the last 90 calendar days, inclusive.",
+  "scope": "Active privileged E-Campus accounts in the 31 March 2026 baseline and the 8 April 2026 follow-up. An account is out of scope when active or privileged is explicitly false. An account is unresolved when active or privileged is missing.",
+  "owner": "Identity Governance Lead",
+  "frequency": "weekly",
+  "evidence_sources": [
+    "data/baseline.json",
+    "data/follow_up.json",
+    "data/policy.json",
+    "data/reviewer_decisions.json"
+  ],
+  "pass_condition": "The account is active and privileged, review_status is approved, and the review age is from 0 through 90 calendar days inclusive, counted from that snapshot's assessment date.",
+  "manual_review_conditions": [
+    "active or privileged is missing",
+    "review date is missing, invalid, or later than the assessment date",
+    "review status is missing or is not approved or pending",
+    "a risk exception is recorded for the account"
+  ],
+  "exception_approver": "Risk Approver",
+  "known_evidence_limitations": [
+    "The exports contain a review date and a status only. They do not name the reviewer, list the access that was reviewed, or point to a ticket showing that a person completed the review. A reviewer would request the reviewer identity, the entitlement list, and the workflow or ticket record."
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "account_id": "AC-03",
+    "flags": []
+  },
+  {
+    "account_id": "AC-04",
+    "flags": [
+      "status_mismatch"
+    ]
+  },
+  {
+    "account_id": "AC-11",
+    "flags": [
+      "evidence_mismatch"
+    ]
+  },
+  {
+    "account_id": "AC-02",
+    "flags": []
+  }
+]

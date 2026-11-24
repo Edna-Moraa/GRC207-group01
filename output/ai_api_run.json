@@ -1,0 +1,14 @@
+{
+  "provider": "ollama",
+  "requested_model": "gemma3:1b",
+  "response_model": "gemma3:1b",
+  "http_status": 200,
+  "generated_at_utc": "2026-11-24T08:08:36.980262+00:00",
+  "requested_accounts": [
+    "AC-02",
+    "AC-03",
+    "AC-04",
+    "AC-11"
+  ],
+  "draft_count": 4
+}

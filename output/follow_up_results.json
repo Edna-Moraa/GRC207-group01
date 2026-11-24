@@ -1,0 +1,96 @@
+{
+  "snapshot_id": "follow_up",
+  "assessment_date": "2026-04-08",
+  "counts": {
+    "Pass": 4,
+    "Fail": 3,
+    "Insufficient Evidence": 3,
+    "Not Applicable": 2
+  },
+  "results": [
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-01",
+      "evidence_id": "FOLLOW-01",
+      "status": "Pass",
+      "reason": "Approved review is within the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-02",
+      "evidence_id": "FOLLOW-02",
+      "status": "Fail",
+      "reason": "Review is pending or older than the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-03",
+      "evidence_id": "FOLLOW-03",
+      "status": "Pass",
+      "reason": "Approved review is within the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-04",
+      "evidence_id": "FOLLOW-04",
+      "status": "Insufficient Evidence",
+      "reason": "Review date or review status is missing, invalid, or in the future."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-05",
+      "evidence_id": "FOLLOW-05",
+      "status": "Not Applicable",
+      "reason": "Account is explicitly inactive or not privileged."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-06",
+      "evidence_id": "FOLLOW-06",
+      "status": "Not Applicable",
+      "reason": "Account is explicitly inactive or not privileged."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-07",
+      "evidence_id": "FOLLOW-07",
+      "status": "Insufficient Evidence",
+      "reason": "Review date or review status is missing, invalid, or in the future."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-08",
+      "evidence_id": "FOLLOW-08",
+      "status": "Pass",
+      "reason": "Approved review is within the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-09",
+      "evidence_id": "FOLLOW-09",
+      "status": "Fail",
+      "reason": "Review is pending or older than the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-10",
+      "evidence_id": "FOLLOW-10",
+      "status": "Pass",
+      "reason": "Approved review is within the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-11",
+      "evidence_id": "FOLLOW-11",
+      "status": "Fail",
+      "reason": "Review is pending or older than the allowed review age."
+    },
+    {
+      "control_id": "GRC207-PA-01",
+      "account_id": "AC-12",
+      "evidence_id": "FOLLOW-12",
+      "status": "Insufficient Evidence",
+      "reason": "Scope is unresolved because active or privileged is missing."
+    }
+  ]
+}

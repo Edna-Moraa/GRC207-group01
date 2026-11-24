@@ -1,0 +1,14 @@
+test_exactly_ninety_days (test_assess.AccessReviewTests) ... ok
+test_future_review_date (test_assess.AccessReviewTests) ... ok
+test_inactive_account (test_assess.AccessReviewTests) ... ok
+test_invalid_date (test_assess.AccessReviewTests) ... ok
+test_missing_date (test_assess.AccessReviewTests) ... ok
+test_missing_scope (test_assess.AccessReviewTests) ... ok
+test_ninety_one_days (test_assess.AccessReviewTests) ... ok
+test_pending_review (test_assess.AccessReviewTests) ... ok
+test_recent_approved_review (test_assess.AccessReviewTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
